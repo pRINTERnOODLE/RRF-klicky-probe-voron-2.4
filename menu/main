@@ -1,0 +1,46 @@
+image R0 C0 L"voron.img"
+
+text V5 R3 C20 T"IP: "
+value V5 N534 W68
+
+text V2 R3 C20 T"Print: "
+value V2 F0 N535 W24
+text V2 T"ETA: "
+value V2 F0 N536 W36
+
+image R0 C16 L"vline.img"
+image R16 C0 L"hline.img"
+
+alter F0 R18 C0 N100 W20 H1
+image R27 C2 L"nozzle.img"
+value R42 C0 N0 W20 H1
+
+alter F0 R18 C20 N180 W20 H1
+image R27 C22 L"bed.img"
+value R42 C20 N80 W20 H1
+
+image R16 C41 L"vline.img"
+image R32 C41 L"vline.img"
+image R38 C41 L"vline.img"
+
+text F0 R18 C44 T"X: "
+value N510 D1 W25
+text R30 C44 T"Y: "
+value N511 D1 W25
+text R42 C44 T"Z: "
+value N512 D2 W30
+
+image R16 C85 L"vline.img"
+image R32 C85 L"vline.img"
+image R38 C85 L"vline.img"
+
+image R36 C88 L"fan.img"
+value F0 R40 C104 N399 W23 H1
+
+
+image R53 C0 L"hline.img"
+text V2 F0 R55 C0 T"> "
+value V2 N501
+
+
+;button C92 T" MENU " A"menu mainmenu"

@@ -1,0 +1,3 @@
+M303 H0 S100 ; auto tune heater 1, default PWM, 100C target or maximum temperature
+
+M303 ; report the auto-tune status or last result

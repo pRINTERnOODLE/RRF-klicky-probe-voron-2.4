@@ -1,0 +1,8 @@
+;	Unload filament
+
+M302 P1             ; remove minimum extrusion temprature
+T0
+M83
+G1 E-56 F1000        ;
+M302 S160           ; prevent cold extrusion again
+M82

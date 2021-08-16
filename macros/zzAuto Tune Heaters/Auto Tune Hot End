@@ -1,0 +1,3 @@
+M303 H1 S220 ; auto tune heater 1, default PWM, 220C target or maximum temperature
+
+M303 ; report the auto-tune status or last result

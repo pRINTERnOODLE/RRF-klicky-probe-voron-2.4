@@ -1,0 +1,2 @@
+M558 P5 C"zprobe.in" I0 A30 H5 R0.1 F1000 T99999 S0.0075 ; Probe twice
+G31 P1000 X0 Y25
