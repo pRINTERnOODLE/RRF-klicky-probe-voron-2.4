@@ -21,7 +21,7 @@ if global.clicky_status != "docked"
 	G1 X30 ; wipe off
 	G90 ; absolute
 	M98 P"/macros/moveto/clickstage.g"
-	M98 P"/macros/moveto/hominghopdown.g"	; raise Z if homed already
+	M98 P"/macros/moveto/hominghopup.g"	; raise Z if homed already
 	M400
 	; check for probe trigger here
 	M98 P"/macros/zprobe/clicky_status.g"
